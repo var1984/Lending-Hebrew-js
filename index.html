@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet/less" type="text/css" href="style.less" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="less.js"></script>
+  </head>
+
+  <body dir="rtl">
+    <header>
+      <div class="header_logo">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="199.641"
+          height="75"
+          viewBox="0 0 199.641 75"
+        >
+          <g
+            id="Group_22"
+            data-name="Group 22"
+            transform="translate(-67.631 -77.344)"
+          >
+            <g
+              id="Group_19"
+              data-name="Group 19"
+              transform="translate(67.631 77.344)"
+            >
+              <path
+                id="Path_30"
+                data-name="Path 30"
+                d="M132.066,134.732,111.343,84.7a11.92,11.92,0,0,0-22.025,0l-20.724,50.03a12.731,12.731,0,0,0,17.618,16.182,30.83,30.83,0,0,1,28.239,0,12.735,12.735,0,0,0,17.615-16.185Zm-5.085,12.146a9.858,9.858,0,0,1-11.22,1.5,33.691,33.691,0,0,0-30.863,0,9.875,9.875,0,0,1-13.663-12.549Q81.6,110.812,91.959,85.8a9.061,9.061,0,0,1,16.743,0q10.362,25.013,20.724,50.03A9.857,9.857,0,0,1,126.982,146.878Z"
+                transform="translate(-67.631 -77.344)"
+                fill="#fff"
+              />
+              <path
+                id="Path_31"
+                data-name="Path 31"
+                d="M136.846,150.639q-9.053-21.849-18.1-43.7a5.345,5.345,0,0,0-9.876,0q-9.053,21.85-18.1,43.7a5.861,5.861,0,0,0,8.064,7.473,33.322,33.322,0,0,1,29.956,0,5.863,5.863,0,0,0,8.065-7.473Zm-14.66-5.839a1.661,1.661,0,0,1-1.79.421,19.4,19.4,0,0,0-13.186,0,1.682,1.682,0,0,1-2.126-2.227q3.582-8.632,7.165-17.266a1.682,1.682,0,0,1,3.107,0q3.582,8.633,7.167,17.266A1.662,1.662,0,0,1,122.186,144.8Z"
+                transform="translate(-81.103 -92.97)"
+                fill="#fff"
+              />
+            </g>
+            <g
+              id="Group_21"
+              data-name="Group 21"
+              transform="translate(140.43 98.594)"
+            >
+              <g id="Group_20" data-name="Group 20" transform="translate(0 0)">
+                <path
+                  id="Path_32"
+                  data-name="Path 32"
+                  d="M280.895,133.5c3.581,0,5.7.768,7.307,2.154a9.81,9.81,0,0,1,0,14.32c-1.607,1.388-3.726,2.155-7.307,2.155H277.06V133.5Zm8.95-1.059c-2.081-1.535-4.712-2.411-8.766-2.411h-5.9a1.768,1.768,0,0,0-1.769,1.768v22.031a1.769,1.769,0,0,0,1.769,1.77h5.9c4.054,0,6.721-.876,8.8-2.41a13.107,13.107,0,0,0-.037-20.747M304.09,145.5c-.611,0-.742.286-.742.286l4.08-9.785,4.081,9.785s-.131-.286-.742-.286Zm3.338-15.783a1.754,1.754,0,0,0-1.619,1.082l-9.356,22.489a1.753,1.753,0,0,0,3.238,1.342l1.617-3.832A3.04,3.04,0,0,1,304,148.968h6.857a3.039,3.039,0,0,1,2.693,1.827l1.616,3.832a1.753,1.753,0,0,0,3.239-1.342L309.047,130.8a1.754,1.754,0,0,0-1.619-1.082M254.814,145.5c-.611,0-.742.286-.742.286l4.08-9.785,4.081,9.785s-.131-.286-.742-.286Zm3.339-15.783a1.753,1.753,0,0,0-1.619,1.082l-9.357,22.489a1.753,1.753,0,0,0,3.239,1.342l1.616-3.832a3.039,3.039,0,0,1,2.693-1.827h6.857a3.038,3.038,0,0,1,2.692,1.827l1.617,3.832a1.753,1.753,0,0,0,3.239-1.342L259.772,130.8a1.753,1.753,0,0,0-1.619-1.082M359.438,145.5c-.611,0-.742.286-.742.286l4.08-9.785,4.08,9.785s-.131-.286-.741-.286Zm3.338-15.783a1.753,1.753,0,0,0-1.619,1.082L351.8,153.285a1.753,1.753,0,0,0,3.239,1.342l1.616-3.832a3.039,3.039,0,0,1,2.693-1.827H366.2a3.042,3.042,0,0,1,2.693,1.827l1.615,3.832a1.753,1.753,0,1,0,3.238-1.342L364.4,130.8a1.754,1.754,0,0,0-1.62-1.082m-29.213,19.807-7.228-11.339v15.7a1.826,1.826,0,0,1-3.652,0V131.327a1.612,1.612,0,0,1,2.97-.868l9.448,14.954,9.449-14.954a1.612,1.612,0,0,1,2.97.868v22.557a1.826,1.826,0,0,1-3.652,0v-15.7l-7.229,11.339a1.825,1.825,0,0,1-3.077,0"
+                  transform="translate(-247.043 -129.714)"
+                  fill="#fff"
+                />
+              </g>
+              <path
+                id="Path_33"
+                data-name="Path 33"
+                d="M373.64,217.98q-.592,0-.267.618l2.411,4.682-2.271,8.47c-.108.411-.011.618.291.618h3.051c.256,0,.423-.176.5-.525l2.072-8.993q.374-1.678,1.562-1.678a1.031,1.031,0,0,1,1,.651,2.216,2.216,0,0,1,.174.572,3.6,3.6,0,0,1,.035.523v6.105h-2.27c-.264,0-.4.144-.4.431v2.5a.357.357,0,0,0,.4.409h5.417c.3,0,.454-.159.454-.478v-8.947a5.77,5.77,0,0,0-1.014-3.53,4.066,4.066,0,0,0-3.494-1.6,3.793,3.793,0,0,0-1.795.431,3.989,3.989,0,0,0-1.549,1.573l-.687-1.41a.678.678,0,0,0-.641-.431Zm-11.488,11.5v2.459a.382.382,0,0,0,.431.432l4.358-.013.279-.035a3.452,3.452,0,0,0,.734-.233,5.156,5.156,0,0,0,1.912-1.537,8.034,8.034,0,0,0,1.713-5.173v-.453a9.8,9.8,0,0,0-.385-2.831,6.13,6.13,0,0,0-1.364-2.493,5.183,5.183,0,0,0-2-1.421,3.478,3.478,0,0,0-.71-.174c-.077-.009-.159-.016-.245-.024h-4.263q-.432,0-.431.407v2.436c0,.3.143.453.431.453l3.355.013a1.058,1.058,0,0,1,.314.069,2.219,2.219,0,0,1,.816.583,2.739,2.739,0,0,1,.572,1.061,5.777,5.777,0,0,1,.314,1.922v.453a5.343,5.343,0,0,1-.314,1.841,4.683,4.683,0,0,1-.269.629l-.255.42a1.767,1.767,0,0,1-1.55.781h-3.006a.381.381,0,0,0-.431.43m-15.215-.045v2.551q0,.385.407.385h4.741c.3,0,.455-.168.455-.5v-2.795l-.211-7.794h3.262a.463.463,0,0,1,.524.524v10.11q0,.456.385.456h2.866c.256,0,.385-.168.385-.5V221.778a5.136,5.136,0,0,0-.594-2.877,2.866,2.866,0,0,0-2.459-.921h-7.666q-.327,0-.326.431v2.866l.209,7.77h-1.6a.339.339,0,0,0-.383.385m-16.731-10.9,2.389,13.432a.46.46,0,0,0,.5.409h2.026a11.988,11.988,0,0,0,5.848-1.55,7.815,7.815,0,0,0,2.714-2.436A8.236,8.236,0,0,0,345,224.189l.361-5.778c.024-.288-.09-.431-.338-.431h-2.959a.371.371,0,0,0-.407.385l-.409,5.765a4.426,4.426,0,0,1-2.259,3.681,7.643,7.643,0,0,1-3.2,1.071l-.455-2.69,2.457-.932a2.6,2.6,0,0,0,1.515-1.387,3.667,3.667,0,0,0,.233-.885,6.791,6.791,0,0,0,.071-.885l.046-3.647q0-.477-.407-.477h-2.808c-.255,0-.383.183-.383.547v3.483a1.091,1.091,0,0,1-.746,1.048l-.5.244-.8-4.776c-.062-.364-.245-.547-.548-.547h-2.842c-.35,0-.486.183-.409.547m-7.5-.116v2.457c0,.273.12.409.361.409h1.258v4.392c0,.311.128.465.385.465h2.772a.4.4,0,0,0,.454-.442v-7.281c0-.288-.136-.431-.408-.431h-4.392a.381.381,0,0,0-.431.431m-9.473,10.636.022-7.77h2.7q.875,0,.874.955v6.815Zm-3.6-10.59v13.432c0,.319.176.478.524.478h9.855c.271,0,.409-.159.409-.478V221.673q0-3.693-3.53-3.693h-6.827c-.286,0-.431.159-.431.477"
+                transform="translate(-284.233 -182.068)"
+                fill="#fff"
+              />
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class="header-imgMini">
+        <img src="img/header-imageMini.png" alt="" />
+      </div>
+      <div class="header_title">
+        <h1>הדברת הקימחון המרושע</h1>
+        <div class="line"></div>
+        <p>
+          סדרת מוצרי אדמה מכתשים<br />
+          מבית סינג'נטה
+        </p>
+        <span>ככה תדביר אותו</span>
+        <a href="#">
+          <svg
+            id="Component_16_1"
+            data-name="Component 16 – 1"
+            xmlns="http://www.w3.org/2000/svg"
+            width="46.901"
+            height="55"
+            viewBox="0 0 46.901 55"
+          >
+            <path
+              id="Path_38"
+              data-name="Path 38"
+              d="M136.747,150.54q-9.034-21.8-18.066-43.607a5.334,5.334,0,0,0-9.855,0q-9.034,21.8-18.065,43.607A5.848,5.848,0,0,0,98.807,158a33.251,33.251,0,0,1,29.892,0,5.85,5.85,0,0,0,8.048-7.457Zm-14.629-5.827a1.657,1.657,0,0,1-1.786.42,19.359,19.359,0,0,0-13.158,0,1.679,1.679,0,0,1-2.121-2.222q3.575-8.614,7.15-17.23a1.678,1.678,0,0,1,3.1,0q3.575,8.615,7.151,17.23A1.658,1.658,0,0,1,122.118,144.713Z"
+              transform="translate(137.204 158.641) rotate(180)"
+              fill="#fff"
+            />
+          </svg>
+        </a>
+        <div></div>
+      </div>
+      <div class="header_img">
+        <img src="img/header-img.png" alt="" />
+      </div>
+      <div class="link-down">
+        <a href="#down">
+          <div class="link-down-wrap">
+            <div class="link-down-text">
+              להתייעצות עם<br />
+              האגרונום שלנו
+            </div>
+            <div class="link-down-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="34"
+                viewBox="0 0 40 34"
+              >
+                <path
+                  id="Path_99"
+                  data-name="Path 99"
+                  d="M123.972,137.749q-6.549-15.856-13.1-31.714a3.862,3.862,0,0,0-7.144,0q-6.549,15.857-13.1,31.714a4.246,4.246,0,0,0,5.833,5.423,24.035,24.035,0,0,1,21.67,0,4.247,4.247,0,0,0,5.834-5.423Zm-10.605-4.237a1.2,1.2,0,0,1-1.3.305,13.991,13.991,0,0,0-9.538,0A1.219,1.219,0,0,1,101,132.2l5.183-12.531a1.215,1.215,0,0,1,2.247,0L113.61,132.2A1.209,1.209,0,0,1,113.366,133.511Z"
+                  transform="translate(-103.64 124.303) rotate(-90)"
+                  fill="#fff"
+                />
+              </svg>
+            </div>
+          </div>
+        </a>
+        <div class="link-down-img">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="458"
+            height="148"
+            viewBox="0 0 458 148"
+          >
+            <defs>
+              <filter
+                id="Path_98"
+                x="0"
+                y="0"
+                width="458"
+                height="148"
+                filterUnits="userSpaceOnUse"
+              >
+                <feOffset dy="-6" input="SourceAlpha" />
+                <feGaussianBlur stdDeviation="10" result="blur" />
+                <feFlood flood-opacity="0.161" />
+                <feComposite operator="in" in2="blur" />
+                <feComposite in="SourceGraphic" />
+              </filter>
+            </defs>
+            <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_98)">
+              <path
+                id="Path_98-2"
+                data-name="Path 98"
+                d="M291.444,359.1H139.111q11.626,28.26,23.252,56.163a51.57,51.57,0,0,0,47.7,31.837h256.1a51.57,51.57,0,0,0,47.7-31.837q11.626-27.9,23.252-56.163Z"
+                transform="translate(567.11 483.1) rotate(180)"
+                fill="#009845"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="open-form">
+          <div class="on-form">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="282"
+              height="86"
+              viewBox="0 0 282 86"
+            >
+              <defs>
+                <filter
+                  id="Path_98"
+                  x="0"
+                  y="0"
+                  width="282"
+                  height="86"
+                  filterUnits="userSpaceOnUse"
+                >
+                  <feOffset dy="-4" input="SourceAlpha" />
+                  <feGaussianBlur stdDeviation="5" result="blur" />
+                  <feFlood flood-opacity="0.161" />
+                  <feComposite operator="in" in2="blur" />
+                  <feComposite in="SourceGraphic" />
+                </filter>
+              </defs>
+              <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_98)">
+                <path
+                  id="Path_98-2"
+                  data-name="Path 98"
+                  d="M96.452,0H0Q7.361,17.984,14.722,35.74A32.651,32.651,0,0,0,44.922,56H207.078a32.651,32.651,0,0,0,30.2-20.26Q244.638,17.984,252,0Z"
+                  transform="translate(267 75) rotate(180)"
+                  fill="#009845"
+                />
+              </g>
+            </svg>
+            <div class="open-form_link-left form-arow">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20.656"
+                height="12.329"
+                viewBox="0 0 20.656 12.329"
+              >
+                <path
+                  id="Path_151"
+                  data-name="Path 151"
+                  d="M5853.75-2109.767l4.219-4.219.156-.156,3.125-3.125,7.5,7.5"
+                  transform="translate(-5850.921 2119.267)"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="4"
+                />
+              </svg>
+            </div>
+
+            <div class="open-form_title-link">
+              להתייעצות עם<br />
+              האגרונום שלנו
+            </div>
+
+            <div class="open-form_link-right form-arow">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20.656"
+                height="12.329"
+                viewBox="0 0 20.656 12.329"
+              >
+                <path
+                  id="Path_151"
+                  data-name="Path 151"
+                  d="M5853.75-2109.767l4.219-4.219.156-.156,3.125-3.125,7.5,7.5"
+                  transform="translate(-5850.921 2119.267)"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="4"
+                />
+              </svg>
+            </div>
+          </div>
+          <form id="form">
+            <div class="container">
+              <div class="form-title">
+                <h3>מה המוצר שהכי מתאים ?לגידולים שלך</h3>
+                <div></div>
+                <p>להתייעצות מקצועית עם האגרונומים שלנו, השאירו לנו פרטים</p>
+              </div>
+              <div class="form-links">
+                <div class="form-links_btn-empty">שם מלא</div>
+                <div class="form-links_btn-empty">טלפון</div>
+                <div class="form-links_btn-empty">כתובת מייל</div>
+                <span>:השימוש העיקרי שלי הוא</span>
+                <div class="form-wrap_btn-empty">
+                  <div class="form-links_btn-empty btn-empty">חקלאי</div>
+                  <div class="form-links_btn-empty btn-empty">פרטי</div>
+                </div>
+                <div class="footer-item_btn form-btn">
+                  <a href="#"><<</a>חיזרו אליי
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="main-info">
+        <div class="main-info_image_icon-bag">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="39.882"
+            height="40"
+            viewBox="0 0 39.882 40"
+          >
+            <path
+              id="Path_145"
+              data-name="Path 145"
+              d="M57.569,34.694H52.645a9.825,9.825,0,0,0-2.281-7.617,10.524,10.524,0,0,0-1.424-1.348l2.2-5.178a1.608,1.608,0,1,0-2.96-1.256l-2.03,4.783a17.5,17.5,0,0,0-6.959-1.354,16.948,16.948,0,0,0-6.848,1.393l-2.046-4.822a1.608,1.608,0,1,0-2.96,1.256l2.222,5.235a10.545,10.545,0,0,0-1.379,1.3,9.87,9.87,0,0,0-2.359,7.606H20.9a1.608,1.608,0,1,0,0,3.216h5.376a57.618,57.618,0,0,0,2.526,10.044l-4.853,2.5a1.608,1.608,0,1,0,1.472,2.859l4.629-2.383c2.056,4.236,4.981,7.385,9.135,7.385,4.43,0,7.375-3.193,9.362-7.317l4.5,2.315a1.608,1.608,0,1,0,1.472-2.859l-4.739-2.439a57.964,57.964,0,0,0,2.407-10.1h5.38a1.608,1.608,0,1,0,0-3.216ZM39.188,55.1c-2.749,0-5.129-2.518-7.074-7.486a58.107,58.107,0,0,1-3.053-12.829A6.748,6.748,0,0,1,30.6,29.207c1.791-2.045,5-3.267,8.592-3.267,3.71,0,6.98,1.214,8.748,3.248a6.735,6.735,0,0,1,1.46,5.6C48.691,39.811,46.544,55.1,39.188,55.1Z"
+              transform="translate(-19.295 -18.314)"
+              fill="#fff"
+            />
+          </svg>
+        </div>
+        <div class="main-info__text">
+          <h2>מה הוא הקימחון?</h2>
+          <p>
+            סימני הנגיעות בקמחונות מתגלים בפונדקאים בצורות שונות, בהתאם לסוגים
+            השונים של הקמחונות ושלבי ההתפתחות של המחלה. בדרך כלל, נגיעות הצמחים
+            נובעת מהתפתחות השלב האל-מיני, לעיתים הדרגה המינית נעדרת לגמרי, ובכל
+            מקרההיא מופיעה בשלב גידול יותר מאוחר
+          </p>
+
+          <div class="main-info_icon">
+            <svg
+              id="Group_64"
+              data-name="Group 64"
+              xmlns="http://www.w3.org/2000/svg"
+              width="30.743"
+              height="30"
+              viewBox="0 0 30.743 30"
+            >
+              <path
+                id="Path_7"
+                data-name="Path 7"
+                d="M48.481,19.031a1.143,1.143,0,0,0-.943,0c-.328.147-8.039,3.711-8.039,12.666,0,7.242,5.422,10.924,7.364,12.011v4.08a1.143,1.143,0,0,0,2.285,0V43.7c1.935-1.1,7.364-4.815,7.364-12.007C56.512,22.808,48.809,19.181,48.481,19.031ZM48,41.726c-1.54-.852-6.218-3.942-6.218-10.032A11.848,11.848,0,0,1,48,21.358a12.055,12.055,0,0,1,6.23,10.336C54.227,37.738,49.539,40.863,48,41.726Z"
+                transform="translate(-32.724 -18.928)"
+                fill="#fff"
+              />
+              <path
+                id="Path_8"
+                data-name="Path 8"
+                d="M18.374,49.915a1.143,1.143,0,0,0,.866-1.887,10.648,10.648,0,0,1-2.659-7.108,11.182,11.182,0,0,1,2.761-7.487,1.142,1.142,0,1,0-1.733-1.489A13.408,13.408,0,0,0,14.3,40.92a12.873,12.873,0,0,0,3.21,8.6A1.14,1.14,0,0,0,18.374,49.915Z"
+                transform="translate(-14.297 -28.154)"
+                fill="#fff"
+              />
+              <path
+                id="Path_9"
+                data-name="Path 9"
+                d="M109.356,31.821a1.143,1.143,0,0,0-.123,1.611,10.646,10.646,0,0,1,2.659,7.108,11.183,11.183,0,0,1-2.761,7.487,1.142,1.142,0,1,0,1.733,1.489,13.409,13.409,0,0,0,3.313-8.976,12.873,12.873,0,0,0-3.21-8.6A1.142,1.142,0,0,0,109.356,31.821Z"
+                transform="translate(-83.435 -28.154)"
+                fill="#fff"
+              />
+            </svg>
+            <p>העונה של הקימחון</p>
+          </div>
+
+          <div class="main-info__items">
+            <div class="main-info__item">
+              <img src="img/flower-icon.png" /><span>אביב</span>
+            </div>
+            <div class="main-info__item">
+              <img src="img/sun-icon.png" /><span>קיץ</span>
+            </div>
+            <div class="main-info__item">
+              <img src="img/leaf-icon.png" /><span>סתיו</span>
+            </div>
+            <div class="main-info__item">
+              <img src="img/cloud-icon.png" /><span>חורף</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main-colection">
+        <div class="main-colection_wrap">
+          <h2>הדברת הקימחון | <span>סדרת מוצרי אדמה מכתשים</span></h2>
+
+          <div class="img-slider swiper-container">
+            <div class="main-colection_slider swiper-wrapper">
+              <div class="main-colection_slider-item swiper-slide">
+                <div class="main-colection_slider-image">
+                  <img src="img/slider-icon.png" />
+                </div>
+                <h5 data-title-id="target_1">שם המוצר</h5>
+                <div class="main-colection_menu-items">
+                  <div
+                    class="main-colection_icon-plus"
+                    data-target-id="target_1"
+                  ></div>
+                  <p data-p-id="target_1">רשימת הגידולים המלאה</p>
+                  <div class="main-colection_list-wrap">
+                    <ul class="main-colection_list" data-item-id="target_1">
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="main-colection_slider-btn"><a><<</a>למוצר</div>
+              </div>
+              <div class="main-colection_slider-item swiper-slide">
+                <div class="main-colection_slider-image">
+                  <img src="img/slider-icon.png" />
+                </div>
+
+                <h5 data-title-id="target_1">שם המוצר</h5>
+                <div class="main-colection_menu-items">
+                  <div
+                    class="main-colection_icon-plus"
+                    data-target-id="target_1"
+                  ></div>
+                  <p data-p-id="target_1">רשימת הגידולים המלאה</p>
+                  <div class="main-colection_list-wrap">
+                    <ul class="main-colection_list" data-item-id="target_1">
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="main-colection_slider-btn"><a><<</a>למוצר</div>
+              </div>
+              <div class="main-colection_slider-item swiper-slide">
+                <div class="main-colection_slider-image">
+                  <img src="img/slider-icon.png" />
+                </div>
+
+                <h5 data-title-id="target_2">שם המוצר</h5>
+                <div class="main-colection_menu-items">
+                  <div
+                    class="main-colection_icon-plus"
+                    data-target-id="target_2"
+                  ></div>
+                  <p data-p-id="target_2">רשימת הגידולים המלאה</p>
+                  <div class="main-colection_list-wrap">
+                    <ul class="main-colection_list" data-item-id="target_2">
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="main-colection_slider-btn"><a><<</a>למוצר</div>
+              </div>
+              <div class="main-colection_slider-item swiper-slide">
+                <div class="main-colection_slider-image">
+                  <img src="img/slider-icon.png" />
+                </div>
+
+                <h5 data-title-id="target_3">שם המוצר</h5>
+                <div class="main-colection_menu-items">
+                  <div
+                    class="main-colection_icon-plus"
+                    data-target-id="target_3"
+                  ></div>
+                  <p data-p-id="target_3">רשימת הגידולים המלאה</p>
+                  <div class="main-colection_list-wrap">
+                    <ul class="main-colection_list" data-item-id="target_3">
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="main-colection_slider-btn"><a><<</a>למוצר</div>
+              </div>
+              <div class="main-colection_slider-item swiper-slide">
+                <div class="main-colection_slider-image">
+                  <img src="img/slider-icon.png" />
+                </div>
+
+                <h5 data-title-id="target_4">שם המוצר</h5>
+                <div class="main-colection_menu-items">
+                  <div
+                    class="main-colection_icon-plus"
+                    data-target-id="target_4"
+                  ></div>
+                  <p data-p-id="target_4">רשימת הגידולים המלאה</p>
+                  <div class="main-colection_list-wrap">
+                    <ul class="main-colection_list" data-item-id="target_4">
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="main-colection_slider-btn"><a><<</a>למוצר</div>
+              </div>
+              <div class="main-colection_slider-item swiper-slide">
+                <div class="main-colection_slider-image">
+                  <img src="img/slider-icon.png" />
+                </div>
+
+                <h5 data-title-id="target_5">שם המוצר</h5>
+                <div class="main-colection_menu-items">
+                  <div
+                    class="main-colection_icon-plus"
+                    data-target-id="target_5"
+                  ></div>
+                  <p data-p-id="target_5">רשימת הגידולים המלאה</p>
+                  <div class="main-colection_list-wrap">
+                    <ul class="main-colection_list" data-item-id="target_5">
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                      <li class="main-colection_list-item">שם גידול</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="main-colection_slider-btn"><a><<</a>למוצר</div>
+              </div>
+            </div>
+          </div>
+          <div class="button-prev arrow">
+            <img src="img/arrow-left.png" alt="" />
+          </div>
+          <div class="button-next arrow">
+            <img src="img/arrow-right.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="main-colection_mobail">
+        <div class="main-colection_mobail-items">
+          <div class="main-colection_mobail-item">
+            <div class="main-colection_mobail-image">
+              <img src="img/slider-icon.png" />
+            </div>
+            <div class="main-colection_mobail-title">שם <br />המוצר</div>
+            <div class="main-colection_mobail-links" data-link-id="link_1">
+              <div
+                class="main-colection_mobail-arow-left"
+                data-arow-id="link_1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7.121"
+                  height="4.31"
+                  viewBox="0 0 7.121 4.31"
+                >
+                  <path
+                    id="Path_149"
+                    data-name="Path 149"
+                    d="M5853.75-2114.767l2.5-2.5,2.5,2.5"
+                    transform="translate(-5852.689 2118.016)"
+                    fill="none"
+                    stroke="#752157"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+              <div class="main-colection_mobail-text">
+                לרשימת<br />
+                הגידולים המלאה
+              </div>
+              <div
+                class="main-colection_mobail-arow-right"
+                data-arow-id="link_1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7.121"
+                  height="4.31"
+                  viewBox="0 0 7.121 4.31"
+                >
+                  <path
+                    id="Path_149"
+                    data-name="Path 149"
+                    d="M5853.75-2114.767l2.5-2.5,2.5,2.5"
+                    transform="translate(-5852.689 2118.016)"
+                    fill="none"
+                    stroke="#752157"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="main-colection_mobail-list">
+              <ul
+                class="main-colection_mobail-list-items"
+                data-list-id="link_1"
+              >
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+              </ul>
+            </div>
+          </div>
+          <div class="main-colection_slider-btn"><a><<</a>למוצר</div>
+        </div>
+
+        <div class="main-colection_mobail-items">
+          <div class="main-colection_mobail-item">
+            <div class="main-colection_mobail-image">
+              <img src="img/slider-icon.png" />
+            </div>
+            <div class="main-colection_mobail-title">שם <br />המוצר</div>
+            <div class="main-colection_mobail-links" data-link-id="link_2">
+              <div
+                class="main-colection_mobail-arow-left"
+                data-arow-id="link_2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7.121"
+                  height="4.31"
+                  viewBox="0 0 7.121 4.31"
+                >
+                  <path
+                    id="Path_149"
+                    data-name="Path 149"
+                    d="M5853.75-2114.767l2.5-2.5,2.5,2.5"
+                    transform="translate(-5852.689 2118.016)"
+                    fill="none"
+                    stroke="#752157"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+              <div class="main-colection_mobail-text">
+                לרשימת<br />
+                הגידולים המלאה
+              </div>
+              <div
+                class="main-colection_mobail-arow-right"
+                data-arow-id="link_2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7.121"
+                  height="4.31"
+                  viewBox="0 0 7.121 4.31"
+                >
+                  <path
+                    id="Path_149"
+                    data-name="Path 149"
+                    d="M5853.75-2114.767l2.5-2.5,2.5,2.5"
+                    transform="translate(-5852.689 2118.016)"
+                    fill="none"
+                    stroke="#752157"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="main-colection_mobail-list">
+              <ul
+                class="main-colection_mobail-list-items"
+                data-list-id="link_2"
+              >
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+              </ul>
+            </div>
+          </div>
+          <div class="main-colection_slider-btn"><a><<</a>למוצר</div>
+        </div>
+        <div class="main-colection_mobail-items">
+          <div class="main-colection_mobail-item">
+            <div class="main-colection_mobail-image">
+              <img src="img/slider-icon.png" />
+            </div>
+            <div class="main-colection_mobail-title">שם <br />המוצר</div>
+            <div class="main-colection_mobail-links" data-link-id="link_3">
+              <div
+                class="main-colection_mobail-arow-left"
+                data-arow-id="link_3"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7.121"
+                  height="4.31"
+                  viewBox="0 0 7.121 4.31"
+                >
+                  <path
+                    id="Path_149"
+                    data-name="Path 149"
+                    d="M5853.75-2114.767l2.5-2.5,2.5,2.5"
+                    transform="translate(-5852.689 2118.016)"
+                    fill="none"
+                    stroke="#752157"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+              <div class="main-colection_mobail-text">
+                לרשימת<br />
+                הגידולים המלאה
+              </div>
+              <div
+                class="main-colection_mobail-arow-right"
+                data-arow-id="link_3"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7.121"
+                  height="4.31"
+                  viewBox="0 0 7.121 4.31"
+                >
+                  <path
+                    id="Path_149"
+                    data-name="Path 149"
+                    d="M5853.75-2114.767l2.5-2.5,2.5,2.5"
+                    transform="translate(-5852.689 2118.016)"
+                    fill="none"
+                    stroke="#752157"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="main-colection_mobail-list">
+              <ul
+                class="main-colection_mobail-list-items"
+                data-list-id="link_3"
+              >
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+              </ul>
+            </div>
+          </div>
+          <div class="main-colection_slider-btn"><a><<</a>למוצר</div>
+        </div>
+        <div class="main-colection_mobail-items">
+          <div class="main-colection_mobail-item">
+            <div class="main-colection_mobail-image">
+              <img src="img/slider-icon.png" />
+            </div>
+            <div class="main-colection_mobail-title">שם <br />המוצר</div>
+            <div class="main-colection_mobail-links" data-link-id="link_4">
+              <div
+                class="main-colection_mobail-arow-left"
+                data-arow-id="link_4"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7.121"
+                  height="4.31"
+                  viewBox="0 0 7.121 4.31"
+                >
+                  <path
+                    id="Path_149"
+                    data-name="Path 149"
+                    d="M5853.75-2114.767l2.5-2.5,2.5,2.5"
+                    transform="translate(-5852.689 2118.016)"
+                    fill="none"
+                    stroke="#752157"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+              <div class="main-colection_mobail-text">
+                לרשימת<br />
+                הגידולים המלאה
+              </div>
+              <div
+                class="main-colection_mobail-arow-right"
+                data-arow-id="link_4"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7.121"
+                  height="4.31"
+                  viewBox="0 0 7.121 4.31"
+                >
+                  <path
+                    id="Path_149"
+                    data-name="Path 149"
+                    d="M5853.75-2114.767l2.5-2.5,2.5,2.5"
+                    transform="translate(-5852.689 2118.016)"
+                    fill="none"
+                    stroke="#752157"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="main-colection_mobail-list">
+              <ul
+                class="main-colection_mobail-list-items"
+                data-list-id="link_4"
+              >
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+              </ul>
+            </div>
+          </div>
+          <div class="main-colection_slider-btn"><a><<</a>למוצר</div>
+        </div>
+        <div class="main-colection_mobail-items">
+          <div class="main-colection_mobail-item">
+            <div class="main-colection_mobail-image">
+              <img src="img/slider-icon.png" />
+            </div>
+            <div class="main-colection_mobail-title">שם <br />המוצר</div>
+            <div class="main-colection_mobail-links" data-link-id="link_5">
+              <div
+                class="main-colection_mobail-arow-left"
+                data-arow-id="link_5"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7.121"
+                  height="4.31"
+                  viewBox="0 0 7.121 4.31"
+                >
+                  <path
+                    id="Path_149"
+                    data-name="Path 149"
+                    d="M5853.75-2114.767l2.5-2.5,2.5,2.5"
+                    transform="translate(-5852.689 2118.016)"
+                    fill="none"
+                    stroke="#752157"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+              <div class="main-colection_mobail-text">
+                לרשימת<br />
+                הגידולים המלאה
+              </div>
+              <div
+                class="main-colection_mobail-arow-right"
+                data-arow-id="link_5"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7.121"
+                  height="4.31"
+                  viewBox="0 0 7.121 4.31"
+                >
+                  <path
+                    id="Path_149"
+                    data-name="Path 149"
+                    d="M5853.75-2114.767l2.5-2.5,2.5,2.5"
+                    transform="translate(-5852.689 2118.016)"
+                    fill="none"
+                    stroke="#752157"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="main-colection_mobail-list">
+              <ul
+                class="main-colection_mobail-list-items"
+                data-list-id="link_5"
+              >
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+              </ul>
+            </div>
+          </div>
+          <div class="main-colection_slider-btn"><a><<</a>למוצר</div>
+        </div>
+        <div class="main-colection_mobail-items">
+          <div class="main-colection_mobail-item">
+            <div class="main-colection_mobail-image">
+              <img src="img/slider-icon.png" />
+            </div>
+            <div class="main-colection_mobail-title">שם <br />המוצר</div>
+            <div class="main-colection_mobail-links" data-link-id="link_6">
+              <div
+                class="main-colection_mobail-arow-left"
+                data-arow-id="link_6"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7.121"
+                  height="4.31"
+                  viewBox="0 0 7.121 4.31"
+                >
+                  <path
+                    id="Path_149"
+                    data-name="Path 149"
+                    d="M5853.75-2114.767l2.5-2.5,2.5,2.5"
+                    transform="translate(-5852.689 2118.016)"
+                    fill="none"
+                    stroke="#752157"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+              <div class="main-colection_mobail-text">
+                לרשימת<br />
+                הגידולים המלאה
+              </div>
+              <div
+                class="main-colection_mobail-arow-right"
+                data-arow-id="link_6"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7.121"
+                  height="4.31"
+                  viewBox="0 0 7.121 4.31"
+                >
+                  <path
+                    id="Path_149"
+                    data-name="Path 149"
+                    d="M5853.75-2114.767l2.5-2.5,2.5,2.5"
+                    transform="translate(-5852.689 2118.016)"
+                    fill="none"
+                    stroke="#752157"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="main-colection_mobail-list">
+              <ul
+                class="main-colection_mobail-list-items"
+                data-list-id="link_6"
+              >
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+                <li>גידול לורם</li>
+                <li>גידול איפסום</li>
+              </ul>
+            </div>
+          </div>
+          <div class="main-colection_slider-btn"><a><<</a>למוצר</div>
+        </div>
+      </section>
+    </main>
+    <footer id="down">
+      <div class="footer-block">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="1639.515"
+          height="167.167"
+          viewBox="0 0 1639.515 167.167"
+        >
+          <defs>
+            <clipPath id="clip-path">
+              <rect
+                x="30"
+                y="36"
+                width="1639.515"
+                height="167.167"
+                fill="none"
+              />
+            </clipPath>
+            <clipPath id="clip-path-2">
+              <rect width="1699.515" height="203.167" fill="none" />
+            </clipPath>
+            <filter
+              id="Path_139"
+              x="-30"
+              y="-36"
+              width="1699.515"
+              height="227.333"
+              filterUnits="userSpaceOnUse"
+            >
+              <feOffset dy="-6" input="SourceAlpha" />
+              <feGaussianBlur stdDeviation="10" result="blur" />
+              <feFlood flood-opacity="0.161" />
+              <feComposite operator="in" in2="blur" />
+              <feComposite in="SourceGraphic" />
+            </filter>
+          </defs>
+          <g
+            id="Scroll_Group_1"
+            data-name="Scroll Group 1"
+            transform="translate(-30 -36)"
+            clip-path="url(#clip-path)"
+            style="isolation: isolate"
+          >
+            <g
+              id="Repeat_Grid_1"
+              data-name="Repeat Grid 1"
+              clip-path="url(#clip-path-2)"
+            >
+              <g transform="translate(-110.243 -2390.833)">
+                <g
+                  transform="matrix(1, 0, 0, 1, 140.24, 2426.83)"
+                  filter="url(#Path_139)"
+                >
+                  <path
+                    id="Path_139-2"
+                    data-name="Path 139"
+                    d="M230.958,358.79l-271.651.195H-305.336q22.081,53.675,44.163,106.67a97.947,97.947,0,0,0,90.59,60.469h129.89l1140.862-.195h99.257a97.947,97.947,0,0,0,90.59-60.469q22.081-53,44.162-106.67Z"
+                    transform="translate(1334.18 526.12) rotate(180)"
+                    fill="#009845"
+                  />
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+
+        <div class="footer-info">
+          <p>?מה המוצר שהכי מתאים לגידולים שלך</p>
+          <p>להתייעצות מקצועית עם האגרונומים שלנו, השאירו לנו פרטים</p>
+          <div class="link-donload">
+            <span>תקנון פרטיות</span>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="13"
+                height="11.833"
+                viewBox="0 0 13 11.833"
+              >
+                <g
+                  id="Group_141"
+                  data-name="Group 141"
+                  transform="translate(-1480 -2648)"
+                >
+                  <path
+                    id="Path_142"
+                    data-name="Path 142"
+                    d="M2696.75-1135.1l4,5,4-5"
+                    transform="translate(-1214.25 3787.101)"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-width="1"
+                  />
+                  <line
+                    id="Line_44"
+                    data-name="Line 44"
+                    y1="8"
+                    transform="translate(1486.5 2648.5)"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Path_143"
+                    data-name="Path 143"
+                    d="M2686.25-1135.1v4h12v-4"
+                    transform="translate(-1205.75 3790.434)"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-width="1"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-items">
+          <div class="footer-items_line">
+            <div class="footer-item_btn-empty">שם מלא</div>
+            <div class="footer-item_btn-empty">טלפון</div>
+            <div class="footer-item_btn width"><a><<</a>חיזרו אליי</div>
+          </div>
+          <div class="footer-items_line">
+            <div class="footer-item_btn-empty">מייל</div>
+
+            <div class="footer-item_dubleBtn">
+              <div class="side-btn-wrap">
+                <span class="btns_pls">+</span>
+                <div class="links">
+                  <button>שימוש אישי</button>
+                  <div>|</div>
+                  <button>שימוש חקלאי</button>
+                </div>
+              </div>
+              <div class="footer-item_dubleBtn-name">השימוש העיקרי שלי הוא</div>
+            </div>
+
+            <div class="footer-check-grup">
+              <div class="footer-items_check"></div>
+              <span>אני מאשר קבלת דיוור</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
